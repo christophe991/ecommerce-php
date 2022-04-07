@@ -1,0 +1,45 @@
+/******************RESET**********************/
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+/***********************HEADER***************/
+img{
+    width: 200px;
+    height: 200px;
+    margin: 20px
+}
+header{
+    background-color: #125856;
+}
+h2{
+    color: white;
+    margin: 300px;
+    
+}
+
+/**********************NAV*******************/
+nav{
+    background-color: #63B9B4;
+}
+ul a{
+    color: white;
+}
+ul a:hover{
+    
+    text-decoration: none;
+    
+}
+/********************BODY*******************/
+main {
+    display: inline-flex!important; 
+    margin: 20px;
+}
+aside{
+    background-color: #125856;
+}
+
+

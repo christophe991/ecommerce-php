@@ -1,0 +1,54 @@
+/********************BODY**********************/
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+/* body {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-rows: 75px 1fr 100px;
+    grid-template-areas: "header header header"
+                         "left main right"
+                         "left footer right";
+    color: white;
+    font-weight: bold;
+}
+header {
+    background-color: red;
+    grid-area: header;
+}
+.left {
+    background-color: blue;
+    grid-area: left;
+}
+.right {
+    background-color: blue;
+    grid-area: right;
+}
+main {
+    grid-area: main;
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: repeat(5,1fr);
+    column-gap: 3px;
+}
+main div {
+    background-color: green;
+}
+footer {
+    background-color: yellow;
+    grid-area: footer;
+}
+header, .left, .right, main div, footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+main{
+    display: flex;
+}
+form{
+    margin-left: 400px;
+}
